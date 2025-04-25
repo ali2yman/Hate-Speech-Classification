@@ -5,8 +5,28 @@ This project focuses on detecting hate speech from text using both traditional M
 ---
 
 ## 📁 Project Structure
-HATE-SPEECH-CLASSIFICATION/ │ ├── Data/ # Original and preprocessed datasets │ ├── Hate Speech.tsv │ ├── Hate Speech augmented.tsv │ └── preprocessed_data.csv │ ├── Notebook/ # Jupyter Notebooks for exploration and model training │ ├── Lab1.ipynb # ML approaches (e.g., SVM, Naive Bayes) │ └── Lab2.ipynb # DL approaches (e.g., LSTM, GRU) │ ├── production_model/ │ └── finalized_model.pkl # Finalized trained model │ ├── utils/ # Utility scripts for preprocessing and vectorization │ ├── preprocessing.py │ └── vectorization.py │ ├── app.py # Streamlit app for inference ├── requirements.txt # Required Python packages ├── .gitignore └── README.md # Project overview and documentation
 
+```yaml
+HATE-SPEECH-CLASSIFICATION:
+  Data:
+    - Hate Speech.tsv
+    - Hate Speech augmented.tsv
+    - preprocessed_data.csv
+  env: {}
+  models: {}
+  Notebook:
+    - Lab1.ipynb  # ML approaches
+    - Lab2.ipynb  # DL approaches
+  production_model:
+    - finalized_model.pkl
+  utils:
+    - preprocessing.py
+    - vectorization.py
+  .gitignore: null
+  4.2.0: null
+  app.py: null
+  README.md: null
+  requirements.txt: null
 
 
 ---
