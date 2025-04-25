@@ -6,7 +6,7 @@ This project focuses on detecting hate speech from text using both traditional M
 
 ## 📁 Project Structure
 
- ```
+     ```
      ├── Data/                  # Folder for datasets (raw and preprocessed)
      ├── utils/
      │   ├── preprocessing.py    # Code for data cleaning and preprocessing
