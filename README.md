@@ -5,7 +5,7 @@ This project focuses on detecting hate speech from text using both traditional M
 ---
 
 ## 📁 Project Structure
-HATE-SPEECH-CLASSIFICATION/ 
+
  ```
      ├── Data/                  # Folder for datasets (raw and preprocessed)
      ├── utils/
