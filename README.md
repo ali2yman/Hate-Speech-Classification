@@ -6,23 +6,20 @@ This project focuses on detecting hate speech from text using both traditional M
 
 ## 📁 Project Structure
 HATE-SPEECH-CLASSIFICATION/ 
-│ ├── Data/ # Original and preprocessed datasets 
-    │ ├── Hate Speech.tsv 
-    │ ├── Hate Speech augmented.tsv 
-    │ └── preprocessed_data.csv 
-│ ├── Notebook/ # Jupyter Notebooks for exploration and model training 
-    │ ├── Lab1.ipynb # ML approaches (e.g., SVM, Naive Bayes) 
-    │ └── Lab2.ipynb # DL approaches (e.g., LSTM, GRU) 
-│ ├── production_model/
-    │ └── finalized_model.pkl # Finalized trained model
-│ ├── utils/ # Utility scripts for preprocessing and vectorization 
-    │ ├── preprocessing.py 
-    │ └── vectorization.py 
-│ ├── app.py # Streamlit app for inference
-├── requirements.txt # Required Python packages 
-├── .gitignore 
-└── README.md # Project overview and documentation
-
+ ```
+     ├── Data/                  # Folder for datasets (raw and preprocessed)
+     ├── utils/
+     │   ├── preprocessing.py    # Code for data cleaning and preprocessing
+     │   ├── vectorization.py    # Code for vectorization and embedding   
+     ├── notebooks/              # Jupyter notebooks for exploratory data analysis
+     │   ├── Lab1.ipynb          # Applying ML models 
+     │   ├── Lab2.ipynb          # Applying DL models
+     ├── production_model/
+         ├── finalized_model.pkl # this  is model for the pipline 
+     ├── app.py                  # U can Run the app from here (streamlit)               
+     ├── requirements.txt        # List of required Python libraries
+     ├── README.md               # Project documentation
+     ```
 
 ---
 
